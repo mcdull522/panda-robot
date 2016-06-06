@@ -2,6 +2,6 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello():
-    return "Hello World! This is for testing!"
+    return "Hello World! This is panda-robot!"
 if __name__ ==  '__main__':
     app.run(debug=True)
